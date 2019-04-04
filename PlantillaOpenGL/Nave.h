@@ -9,8 +9,8 @@ public:
 	vec3 coordenadas;
 	enum Direccion {Izquierda, Derecha};
 	float angulo;
-	float velocidadAngular = 2.0f;
-	float velocidad = 0.1f;
+	float velocidadAngular = 0.5f;
+	float velocidad = 0.001f;
 	void rotar(Direccion direccion);
 	void avanzar();
 	void actualizarMatrizTransformacion();
